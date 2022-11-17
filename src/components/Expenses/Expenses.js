@@ -5,6 +5,7 @@ import "./Expenses.css";
 import ExpensesFilter from "./ExpensesFilter";
 
 const Expenses = (props) => {
+  const [] = useStae
   const filtersChangeHandler = (selectedYear) => {
     console.log("Expenses.js");
     console.log(selectedYear);
